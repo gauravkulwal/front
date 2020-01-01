@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-color {
+    background-color: #4D4C4E;
+    height: 80px;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.navbar-btn {
+    color: cornsilk;
+    border: 1px solid #E8E0F0;
+    margin-right: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.nav-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    /*  background-image: linear-gradient(rgba(236, 229, 167, 0.3), rgba(0, 168, 255, 0.3)), url("../image/bg-4.jpeg");
+   */
+    background-image: url("../image/bg-4.jpeg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.header-content {
+    color: #FBFAF4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.featureClass {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: auto;
+}
+
+.feature-container {
+    margin-top: 100px;
+}
+
+.text-green {
+    color: green;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.text-blue {
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.text-gray {
+    color: gray;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: #F2F1EC;
+    max-width: 360px;
+    margin: 0 auto 20px;
+    min-height: 75vh;
+}
+
+.card-body {
+    padding: 20px;
+    height: auto;
+}
+
+.feature-content-link {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+}
+
+.technology {
+    height: auto;
+}
+
+.technology-container {
+    background-color: #F2F1EC;
+    padding: 20px;
+}
+
+.bg-greenyellow {
+    background-color: greenyellow;
+}
+
+.bg-khaki {
+    background-color: khaki;
+}
+
+.bg-lightskyblue {
+    background-color: lightskyblue;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        min-height: 90vh;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .technology {
+        height: 100vh;
+    }
+}
+
+
+/*  service*/
+
+.service {
+    background-image: url("../image/bg-2.jpeg");
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service-text {
+    color: rgb(117, 4, 4);
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .service {
+        height: 90vh;
+    }
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    height: auto;
+}
+
+@media only screen and(min-width: 600px) {
+    .portfolio {
+        height: 100vh;
+    }
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -20px!important;
+    background-color: rgb(221, 220, 215);
+}
+
+.project-text {
+    font-size: larger;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.contactform {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(1, 1, 1, 0.3)), url("../image/contact1.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-container {
+    padding-top: 10%;
+}
+
+.contact-title {
+    color: rgb(255, 249, 249);
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-shadow: 3px 3px rgb(3, 3, 3);
+}
+
+.contact-title-inner {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+}
+
+.form-control {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+}
